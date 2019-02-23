@@ -31,11 +31,9 @@ Input point cloud file must be ascii format. Sample data is __maple_tree_demo.tx
 cylSegmenter.exe ../../../../data/maple_tree_demo.txt ../../../../result/maple_tree_demo_segs.txt 0.02
 ```
 
-Result snapshots:
+Snapshots
 
-        Sample data input            |           Sample data result
-:-----------------------------------:|:--------------------------------------:
-![](snap/maple_tree_demo1_data.png)  |  ![](snap/maple_tree_demo1_result.png)
+![alt-text-1](snap/maple_tree_demo1_data.png "Sample data input")![alt-text-2](snap/maple_tree_demo1_result.png "Sample data result")
 
 
 Contact: Zhouxin Xi, truebelief2010@gmail.com
