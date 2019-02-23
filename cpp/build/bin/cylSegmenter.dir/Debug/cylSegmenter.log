@@ -1,0 +1,43 @@
+﻿  Building Custom Rule E:/prj/rgsegmenter/git/cpp/src/CMakeLists.txt
+  CMake does not need to re-run because E:/prj/rgsegmenter/git/cpp/build/bin/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+e:\prj\rgsegmenter\git\cpp\src\cyl_util.hpp(295): warning C4244: “初始化”: 从“const arma::uword”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_util.hpp(308): warning C4244: “初始化”: 从“arma::u64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(113): warning C4244: “初始化”: 从“const arma::uword”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(136): warning C4244: “=”: 从“const arma::uword”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(189): warning C4244: “初始化”: 从“const arma::uword”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(203): warning C4244: “=”: 从“arma::u64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(345): warning C4244: “=”: 从“unsigned __int64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(350): warning C4244: “=”: 从“unsigned __int64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(573): warning C4244: “=”: 从“arma::u64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(578): warning C4244: “=”: 从“arma::u64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(589): warning C4244: “=”: 从“arma::u64”转换到“int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(659): warning C4244: “参数”: 从“arma::u64”转换到“const int”，可能丢失数据
+e:\prj\rgsegmenter\git\cpp\src\cyl_util.hpp(272): warning C4244: “初始化”: 从“arma::uword”转换到“int”，可能丢失数据
+  e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(125): note: 参见对正在编译的函数 模板 实例化“void CylUtil::RemoveRows<arma::uvec>(K &,arma::uvec &)”的引用
+          with
+          [
+              K=arma::uvec
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\utility(148): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(1007): note: 参见对正在编译的函数 模板 实例化“std::pair<int,int>::pair<::size_t,double,0>(const std::pair<::size_t,double> &)”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(1007): note: 参见对正在编译的函数 模板 实例化“std::pair<int,int>::pair<::size_t,double,0>(const std::pair<::size_t,double> &)”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(1020): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Transform_no_deprecate<_InIt,_OutIt,_Fn>(_InIt,_InIt,_OutIt,_Fn)”的引用
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<::size_t,double>>>>,
+              _Fn=CylSegment::RadSearch::<lambda_53a8f048fc82f50a9a57b6001b7ff3a6>
+          ]
+  e:\prj\rgsegmenter\git\cpp\src\cyl_segmenter.hpp(76): note: 参见对正在编译的函数 模板 实例化“_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::back_insert_iterator<std::vector<int,std::allocator<int>>>,CylSegment::RadSearch::<lambda_53a8f048fc82f50a9a57b6001b7ff3a6>>(_InIt,_InIt,_OutIt,_Fn)”的引用
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _Ty=std::pair<::size_t,double>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<::size_t,double>>>>,
+              _Fn=CylSegment::RadSearch::<lambda_53a8f048fc82f50a9a57b6001b7ff3a6>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\utility(147): warning C4244: “初始化”: 从“const double”转换到“int”，可能丢失数据
+  stdafx.cpp
+  正在生成代码...
+  cylSegmenter.vcxproj -> E:\prj\rgsegmenter\git\cpp\build\bin\Debug\cylSegmenter.exe
