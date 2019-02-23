@@ -8,7 +8,7 @@ Xi, Z.; Hopkinson, C.; Chasmer, L. Automating Plot-Level Stem Analysis from Terr
 
 Matlab and C++ versions are available now. New functions and python support will be added. CUDA version is also expected.
 
-##**C++ Compile and build**
+## **C++ Compile and build**
 
 C++ code is under the cpp folder
 
@@ -23,12 +23,13 @@ Configure the CMakeLists.txt under __cpp/include__ to create project files. If C
 
 Then compile and build the C++ project results from CMake. The final binary file is cylSegmenter(.exe)
 
-##**C++ Run**
+## **C++ Run**
 
 Input point cloud file must be ascii format. Sample data is __maple_tree_demo.txt__ under __data__. Type the following line in the command line console to see restuls. Third parameter 0.02 is 0.02m, an approximate of point resolution.
-'''
+
+```
 cylSegmenter.exe ../../../../data/maple_tree_demo.txt ../../../../result/maple_tree_demo_segs.txt 0.02
-'''
+```
 
 Result snapshots:
 ![alt text](snap/maple_tree_demo1_data.png)
