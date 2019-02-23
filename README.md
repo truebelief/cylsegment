@@ -3,7 +3,7 @@ Segment point clouds into cylinder shapes based on constrained region growing
 
 The main code about cylinder segmentation in the paper:
 
-Xi, Z.; Hopkinson, C.; Chasmer, L. Automating Plot-Level Stem Analysis from Terrestrial Laser Scanning. _ _Forests_ _ **2016**, _ _7_ _, 252.
+Xi, Z.; Hopkinson, C.; Chasmer, L. Automating Plot-Level Stem Analysis from Terrestrial Laser Scanning. _Forests_ **2016**, _7_, 252.
 
 
 Matlab and C++ versions are available now. New functions and python support will be added. CUDA version is also expected.
@@ -12,7 +12,7 @@ Matlab and C++ versions are available now. New functions and python support will
 
 C++ code is under the cpp folder
 
-Required library: ** Armadillo, Eigen3, nanoflann**
+Required library: **Armadillo, Eigen3, nanoflann**
 
 **Eigen3** and **nanoflann** are header-only libraries. They are already included under __cpp/include__, no need to download additional files.
 
@@ -32,7 +32,10 @@ cylSegmenter.exe ../../../../data/maple_tree_demo.txt ../../../../result/maple_t
 ```
 
 Result snapshots:
-![alt text](snap/maple_tree_demo1_data.png)
-![alt text](snap/maple_tree_demo1_result.png)
+
+        Sample data input            |           Sample data result
+:-----------------------------------:|:--------------------------------------:
+![](snap/maple_tree_demo1_data.png)  |  ![](snap/maple_tree_demo1_result.png)
+
 
 Contact: Zhouxin Xi, truebelief2010@gmail.com
