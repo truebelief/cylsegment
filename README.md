@@ -3,7 +3,7 @@ Segment point clouds into cylinder shapes based on constrained region growing
 
 The main code about cylinder segmentation in the paper:
 
-Xi, Z.; Hopkinson, C.; Chasmer, L. Automating Plot-Level Stem Analysis from Terrestrial Laser Scanning. __Forests__ **2016**, __7__, 252.
+Xi, Z.; Hopkinson, C.; Chasmer, L. Automating Plot-Level Stem Analysis from Terrestrial Laser Scanning. _ _Forests_ _ **2016**, _ _7_ _, 252.
 
 
 Matlab and C++ versions are available now. New functions and python support will be added. CUDA version is also expected.
