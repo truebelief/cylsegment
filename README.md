@@ -18,6 +18,7 @@ Required library: ** Armadillo, Eigen3, nanoflann**
 
 Header files of **Armadillo** are also included, but **Armadillo** also requires external library files. It is suggested to install Intel MKL (https://software.intel.com/en-us/mkl) and add libarary files (__mkl_core__, __mkl_intel_lp64__, __mkl_sequential__) to project.
 
+
 Configure the CMakeLists.txt under __cpp/include__ to create project files. If CMake cannot detect MKL libraries automatically, tell CMake the file path of __mkl_core.lib__ (Windows) or __libmkl_core.a__(Linux).
 
 Then compile and build the C++ project results from CMake. The final binary file is cylSegmenter(.exe)
